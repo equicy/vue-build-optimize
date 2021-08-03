@@ -8,7 +8,7 @@
     <div id='today'>
       我叫：{{name}}，我将在：{{date}} 发布
     </div>
-    <button @click="change">转换格式</button>
+    <el-button @click="change">转换格式</el-button>
   </div>
 </template>
 
@@ -25,6 +25,7 @@ export default {
 
   methods: {
     change() {
+      // 这是注视
       this.name = _.cloneDeep('李四')
       console.log($('today'))
     }

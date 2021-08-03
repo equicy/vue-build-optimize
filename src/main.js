@@ -7,8 +7,6 @@ import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI);
 import moment from 'moment'
 
-moment.locale('zh-cn')
-
 Vue.prototype.$moment = moment
 
 Vue.config.productionTip = false
